@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose');
 const dbConfig = require('../config/db');
 //mongoose configs
@@ -60,4 +61,6 @@ module.exports = {
     depth: 3, //how deep the crawl should go
     limitNextLinks: 10,// limit the amount of links we get from wikipedia to 10. this helps when you dont want to get all the links
     urls: ['https://en.wikipedia.org/wiki/Web_crawler/'] //the default urls to crawl if one is not specified
+
+
 };

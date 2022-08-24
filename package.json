@@ -12,5 +12,8 @@
   "dependencies": {
     "mongoos": "^0.0.1-security",
     "web-crawljs": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13"
   }
 }
