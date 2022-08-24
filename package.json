@@ -1,20 +1,7 @@
-
 {
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	    "start": "node index.js"
-  },
-
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "puppeteer": "^5.2.1"
-
-  },
-  "devDependencies": {
-    "@types/node": "^18.7.13"
+    "commander": "^9.4.0",
+    "mongoose": "^6.5.2",
+    "web-crawljs": "^2.2.3"
   }
-
 }
